@@ -1,0 +1,913 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.container {
+  display: flex;
+  background-color: #f4f4f4; /* Example background color */
+  height: 100vh; /* Use viewport height to fill the screen */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+/* Left Side (50% Width) */
+.container1 {
+  flex: 1; /* Take up 50% of the width */
+  padding: 20px; /* Optional padding */
+  background-color: #ffffff;
+  position: relative; /* Positioning for the rectangle */
+  height: 100%; /* Ensures it occupies the full height of the parent */
+}
+
+/* Rectangle inside Left Side */
+.container1 .rectangle1 {
+  width: 148px; /* Rectangle width */
+  height: 1494.52px; /* Rectangle height */
+  top: -412px;
+  left: -90px;
+  transform: rotate(58.44deg);
+  background: linear-gradient(
+    180deg,
+    rgba(59, 130, 246, 0.2) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+
+  position: absolute;
+  opacity: 68%;
+}
+
+.container1 .rectangle2 {
+  width: 148px;
+  height: 1670.52px;
+  top: -307.94px;
+  left: 107.77px;
+  transform: rotate(39.56deg);
+  background: linear-gradient(180.11deg, #cfffe0 0.1%, #ffffff 141.5%);
+  position: absolute;
+  opacity: 66%;
+}
+
+.container1 .rectangle3 {
+  width: 148px;
+  height: 1888.39px;
+  top: -549px;
+  left: 500px;
+  transform: rotate(-43.63deg);
+  background: linear-gradient(179.95deg, #fffdcf 18.78%, #ffffff 85.76%);
+  position: absolute;
+  opacity: 66%;
+}
+
+.load-testing {
+  position: relative;
+  width: 331px;
+  height: 249px;
+  top: 34.28px;
+  left: 19.97px;
+  border-radius: 40px;
+  opacity: 0px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 34px 0px #3b82f61f;
+  transform: rotate(-10.8deg);
+}
+
+.load-testing .ellipse1 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  top: 21.38px;
+  left: 20.89px;
+  border-radius: 40px;
+  background-color: #ebf3ff;
+}
+
+.load-testing .ellipse1 svg {
+  position: relative;
+  left: 2px;
+  top: 15px;
+}
+
+.load {
+  width: 201px;
+  height: 44px;
+  top: 253.74px;
+  left: 90.31px;
+  font-family: Manrope;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 43.71px;
+  text-align: left;
+  color: #0d1b2a;
+}
+
+.para-1 {
+  position: relative;
+  width: 302px;
+  height: 51px;
+  top: -23.34px;
+  left: 0.35px;
+  font-family: Manrope;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25.32px;
+  text-align: left;
+  color: #8390a4;
+}
+
+/* Ai-recommendatitons */
+
+.Ai-recommendatitons {
+  position: relative;
+  width: 341px;
+  height: 245px;
+  top: -5px;
+  left: 361.84px;
+  transform: rotate(6deg);
+  border-radius: 40px;
+  box-shadow: 0px 4px 34px 0px #3b82f61f;
+  background-color: #ffffff;
+}
+
+.Ai-recommendatitons .ellipse2 {
+  position: relative;
+  width: 65px;
+  height: 60px;
+  top: 19.51px;
+  left: 22.31px;
+  border-radius: 40px;
+  background-color: #fffdcf;
+}
+
+.Ai-recommendatitons .ellipse2 .star-1 {
+  position: relative;
+  top: 19px;
+  left: 10px;
+}
+
+.Ai-recommendatitons .ellipse2 .star-2 {
+  position: relative;
+  top: 0px;
+  left: 3px;
+}
+.Ai-recommendatitons .ellipse2 .star-3 {
+  position: relative;
+  top: 23px;
+  left: -14px;
+}
+
+.ai {
+  position: relative;
+  width: 300px;
+  height: 49px;
+  top: -1.26px;
+  left: 20.31px;
+  font-family: Manrope;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 43.71px;
+  text-align: left;
+  color: #0d1b2a;
+}
+
+.para-2 {
+  position: relative;
+  width: 302px;
+  height: 51px;
+  top: -39.34px;
+  left: 21.35px;
+  font-family: Manrope;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25.32px;
+  text-align: left;
+  color: #8390a4;
+}
+
+.Security-testing {
+  position: relative;
+  width: 333px;
+  height: 220px;
+  top: -26.64px;
+  left: 31px;
+  transform: rotate(-5deg);
+  border-radius: 40px;
+  box-shadow: 0px 4px 34px 0px #3b82f61f;
+  background-color: #ffffff;
+}
+
+.Security-testing .ellipse3 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  top: 15.29px;
+  left: 20.66px;
+  background: #cfffe0;
+  border-radius: 40px;
+}
+
+.Security-testing .ellipse3 svg {
+  position: relative;
+  top: 15px;
+  left: 1px;
+}
+
+.secure {
+  position: relative;
+  width: 229px;
+  height: 49px;
+  top: -14.26px;
+  left: 21.31px;
+  font-family: Manrope;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 43.71px;
+  text-align: left;
+  color: #0d1b2a;
+}
+
+.para-3 {
+  position: relative;
+  width: 304px;
+  height: 63px;
+  top: -54.34px;
+  left: 19.35px;
+  font-family: Manrope;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25.32px;
+  text-align: left;
+  color: #8390a4;
+}
+
+/* Container 2  */
+
+.container2 {
+  flex: 1; /* Take up 50% of the width */
+  height: 100vh; /* Use viewport height for the height */
+  background-color: #11141f; /* Background color */
+  opacity: 0.9; /* Visibility */
+  padding: 20px; /* Optional padding */
+  position: relative;
+}
+
+.container2 .fallinglines svg {
+  width: 700px;
+  height: 597.84px;
+  top: -1.69px;
+  left: 161.46px;
+  position: absolute;
+  border-radius: 80px;
+}
+
+.container2 .company-logo img {
+  position: absolute;
+  position: absolute;
+  width: 185px;
+  height: 106px;
+  top: 7px;
+  left: 278px;
+}
+
+.container2 .SignUpBox {
+  position: absolute;
+  width: 653px;
+  height: 570px;
+  top: 115px;
+  left: 55px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 85%;
+
+  border-radius: 10px;
+  opacity: 0.93px;
+  background: #1e2230;
+}
+
+.SignUpBox .sign {
+  position: absolute;
+  width: 141px;
+  height: 36px;
+  top: 2px;
+  left: 18px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+}
+
+.SignUpBox .signin {
+  position: absolute;
+  width: 490px;
+  height: 36px;
+  top: 53px;
+  left: 36px;
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #d9d9d9;
+}
+
+.SignUpBox .email {
+  position: absolute;
+  width: 127px;
+  height: 72px;
+  top: 97px;
+  left: 39px;
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+}
+
+.SignUpBox .email .mandatory {
+  position: absolute;
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  color: #ef4444;
+}
+
+.password-label {
+  position: absolute;
+  width: 490px;
+  height: 36px;
+  top: 103px;
+  left: 36px;
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: left;
+  color: #d9d9d9;
+}
+
+.confirm-password-label {
+  position: absolute;
+  width: 490px;
+  height: 36px;
+  top: 218px;
+  left: 36px;
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: left;
+  color: #d9d9d9;
+}
+
+.show-passwordbtn {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  top: 194px;
+  left: 575px;
+  opacity: 0px;
+  color: #ffffff;
+}
+
+.show-passwordbtn2 {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  top: 302px;
+  left: 575px;
+  opacity: 0px;
+  color: #ffffff;
+}
+
+.passwordCriteriavalidate {
+  position: absolute;
+  top: 340px;
+  left: 40px;
+}
+
+.box-style {
+  display: flex;
+  align-items: center;
+}
+
+.ellipseRound {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  opacity: 0px;
+  border-radius: 20px;
+  background: #24ac54;
+  z-index: 1;
+}
+
+.ellipseRound-error {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  opacity: 0px;
+  border-radius: 20px;
+  background: rgb(52, 65, 109);
+  z-index: 1;
+}
+
+.positioning1 svg {
+  position: absolute;
+  top: 23px;
+  left: 6px;
+}
+
+.positioning2 svg {
+  position: absolute;
+  top: 58px;
+  left: 6px;
+}
+
+.positioning3 svg {
+  position: absolute;
+  top: 91px;
+  left: 6px;
+}
+
+.positioning4 svg {
+  position: absolute;
+  top: 128px;
+  left: 6px;
+}
+
+.positionin1 svg {
+  position: absolute;
+  top: 23px;
+}
+
+.positionin2 svg {
+  position: absolute;
+  top: 58px;
+}
+
+.positionin3 svg {
+  position: absolute;
+  top: 91px;
+}
+
+.positionin4 svg {
+  position: absolute;
+  top: 128px;
+}
+
+.verticalLine {
+  position: absolute;
+  width: 117px;
+  height: 0px;
+  top: 82px;
+  left: -46px;
+  border: 2px;
+  opacity: 0px;
+  z-index: 0;
+  transform: rotate(-90deg);
+  border: 1px solid #24ac54;
+}
+
+.inputBox {
+  position: absolute;
+  width: 569px;
+  height: 45px;
+  top: 179px;
+  left: 37px;
+  font-size: 20px;
+  padding-left: 10px;
+  gap: 0px;
+  border-radius: 10px;
+  border: 2px 0px 0px 0px;
+  background: #11141f;
+  opacity: 0px;
+  border: 2px solid #34416d;
+}
+
+.inputBox-1 {
+  position: absolute;
+  width: 569px;
+  height: 45px;
+  top: 287px;
+  left: 37px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 2px 0px 0px 0px;
+  background: #11141f;
+  opacity: 0px;
+  border: 2px solid #34416d;
+}
+
+.error {
+  border: 2px solid #ef4444;
+}
+
+.erroricon {
+  position: absolute;
+  top: 192px;
+  left: 580px;
+}
+
+.error-message {
+  top: 226px;
+  left: 42px;
+  position: absolute;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #ef4444;
+}
+
+.error-message-otp {
+  top: 59px;
+  left: 1px;
+  position: absolute;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #ef4444;
+}
+
+input::placeholder {
+  width: 499px;
+  height: 36px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #868686;
+}
+
+.signinbtn {
+  position: absolute;
+  width: 192px;
+  height: 46px;
+  top: 266px;
+  left: 40px;
+  border-radius: 10px;
+  opacity: 50%;
+  background: #9747ff;
+}
+
+.savebtn {
+  position: absolute;
+  width: 192px;
+  height: 46px;
+  top: 266px;
+  left: 40px;
+  border-radius: 10px;
+  opacity: 50%;
+  background: #9747ff;
+}
+
+.savebtn .savenext {
+  font-family: Inter;
+  color: #ffffff;
+}
+
+.savebtn.valid {
+  background: #9747ff;
+  opacity: 100%;
+  color: #ffffff;
+}
+
+.savebtn.invalid {
+  background: #9747ff; /* Color when invalid */
+  cursor: not-allowed;
+}
+
+.otpbtn {
+  position: absolute;
+  width: 192px;
+  height: 46px;
+  top: 106px;
+  left: -1px;
+  border-radius: 10px;
+  opacity: 50%;
+  background: #9747ff;
+}
+
+.otpbtn .otptext {
+  font-family: Inter;
+  color: #ffffff;
+}
+
+.otpbtn.valid {
+  background: #9747ff;
+  opacity: 100%;
+  color: #ffffff;
+}
+
+.otpbtn.invalid {
+  background: #9747ff; /* Color when invalid */
+  cursor: not-allowed;
+}
+
+.signinbtn .signtext {
+  font-family: Inter;
+  color: #ffffff;
+}
+
+.signinbtn.valid {
+  background: #9747ff;
+  opacity: 100%;
+  color: #ffffff;
+}
+
+.signinbtn.invalid {
+  background: #9747ff; /* Color when invalid */
+  cursor: not-allowed;
+}
+
+.hror {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 330px;
+  left: 100px;
+}
+
+.hrline {
+  width: 201px;
+  height: -2px;
+  transform: rotate(0deg);
+  border: 2px solid #363636;
+}
+.or {
+  width: 32px;
+  height: 36px;
+  margin: 3px;
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  color: #868686;
+}
+
+.socialmedialogin {
+  position: absolute;
+  top: 343px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 220px;
+}
+
+.socialmedialogin .googleLogin {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  border: 1px;
+  background: #11141f;
+  border: 1px solid #34416d;
+}
+
+.socialmedialogin .googleLogin img {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 15px;
+  left: 13px;
+  gap: 0px;
+  opacity: 0px;
+  scale: fit;
+}
+
+.socialmedialogin .googleLogin {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  top: 30px;
+  left: 16px;
+  border: 1px;
+  background: #11141f;
+  border: 1px solid #34416d;
+}
+
+.socialmedialogin .googleLogin img {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 15px;
+  left: 13px;
+  gap: 0px;
+  opacity: 0px;
+  scale: fit;
+}
+
+.socialmedialogin .microsoftLogin {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 30px;
+  left: 111px;
+  border-radius: 40px;
+  border: 1px;
+  background: #11141f;
+  border: 1px solid #34416d;
+}
+
+.socialmedialogin .microsoftLogin img {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 15px;
+  left: 14px;
+  gap: 0px;
+  opacity: 0px;
+  scale: fit;
+}
+
+.note {
+  position: absolute;
+  width: 462px;
+  height: 40px;
+  top: 456px;
+  left: 97px;
+  border-radius: 10px;
+  opacity: 0.93px;
+  background: #2b3043;
+  backdrop-filter: blur(54px);
+}
+
+.note .notespan {
+  position: absolute;
+  top: 3px;
+  color: #9747ff;
+  left: 15px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+}
+
+.note .notepara {
+  position: absolute;
+  left: 57px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #adadad;
+  top: -12px;
+}
+
+.alreadyhaveaccount {
+  position: absolute;
+  width: 368px;
+  height: 36px;
+  top: 500px;
+  left: 160px;
+}
+
+.alreadyhaveaccount .alreadyacc {
+  position: absolute;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #d9d9d9;
+}
+
+.alreadyhaveaccount .alreadyacc .redirecttologin {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  cursor: pointer;
+  color: #9747ff;
+}
+
+/* otp css  */
+
+.otpclass {
+  position: absolute;
+  width: 33px;
+  height: 32px;
+  top: 35px;
+  left: 26px;
+  border-radius: 20px;
+  background: #2c2e35;
+}
+
+.otpclass .backArrow {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+}
+
+/* .otp {
+  position: absolute;
+  top: 103px;
+  left: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.otp {
+  width: 18px;
+  height: 0px;
+  border: 1px;
+  opacity: 0px;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: 20px;
+  border-radius: 2px;
+  border: 1px solid #34416d;
+}
+.otp-input {
+  width: 74px;
+  height: 57px;
+  border-radius: 10px;
+  border: 2px;
+  opacity: 0px;
+  background: #11141f;
+  border: 2px solid #34416d;
+} */
+
+.otp {
+  position: absolute;
+  top: 88px;
+  left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.otp-input {
+  width: 64px;
+  height: 49px;
+  border-radius: 10px;
+  border: 2px;
+  font-size: 30px;
+  opacity: 0px;
+  text-align: center;
+  background: #11141f;
+  border: 2px solid #34416d;
+}
+
+.otp-error {
+  width: 64px;
+  height: 49px;
+  border-radius: 10px;
+  border: 2px;
+  font-size: 30px;
+  opacity: 0px;
+  text-align: center;
+  background: #11141f;
+  border: 2px solid #ef4444;
+}
+
+.otp-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.dash {
+  width: 18px;
+  height: 0px;
+  border: 1px;
+  opacity: 0px;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: 20px;
+  border-radius: 2px;
+  border: 1px solid #34416d;
+}
+
+.dash-error {
+  width: 18px;
+  height: 0px;
+  border: 1px;
+  opacity: 0px;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: 20px;
+  border-radius: 2px;
+  border: 2px solid #ef4444;
+}
+
+/* Optional: Media Query for Smaller Screens */
+
+/* Hide mobile message on larger screens */
+@media (min-width: 769px) {
+  .mobile-message {
+    display: none; /* Hide this message on larger screens */
+  }
+}
+
+/* here is the responsive css */
